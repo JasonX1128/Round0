@@ -14,6 +14,19 @@ Your job is to build tools to analyze patterns in historical market orderbook da
 - Keep edits minimal and localized; avoid unrelated refactors.
 - Prefer fast codebase search patterns and targeted reads before editing.
 - Preserve existing analysis output structure unless explicitly asked to change it.
+-All the standard python libraries included in Python 3.12 are fully supported, including the libraries below that might be of interest to you to run during the simulation. Importing other, external libraries is not supported.
+
+[pandas](https://pandas.pydata.org/)
+
+[NumPy](https://numpy.org/)
+
+[statistics](https://docs.python.org/3.9/library/statistics.html)
+
+[math](https://docs.python.org/3.9/library/math.html)
+
+[typing](https://docs.python.org/3.9/library/typing.html)
+
+[jsonpickle](https://jsonpickle.github.io/)
 
 ## Approach
 1. Identify the statistical, analytical, or plotting behavior to change.
